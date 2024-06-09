@@ -1,0 +1,23 @@
+Src: https://github.com/febiarifin/gemastik-programming
+
+Menghitung Banyaknya Produk Unik
+
+Deskripri Masalah Tahukah kamu siapa nama dari maskot GemasTIK XIII 2020? Nama dari maskot tersebut adalah Galih. Pada tahun 2120, ketika para harimau di Kerajaan Dayeuhkolot memiliki kemampuan membuat algoritma dan program, Galih, bersama dua saudaranya yang lain, yaitu Galuh dan Gilang, membuat sebuah perusahaan perangkat lunak yang dinamai PT DayeuhCoder.
+
+Setiap perangkat lunak yang dibuat oleh PT DayeuhCoder diberi nomor seri yang setiap digitnya merupakan bilangan bulat antara 0 hingga 9 (inklusif). Nomor seri ini merepresentasikan suatu bilangan bulat antara 0 hingga 1019 − 1 = 9 999 999 999 999 999 999 (inklusif, termasuk 0 dan 1019 − 1.
+
+Galih, Galuh, dan Gilang memiliki kebiasaan yang tidak biasa pada perangkat lunak yang dibuat perusahaan mereka. Beberapa perangkat lunak yang dirilis untuk pengguna bisa jadi memiliki fitur tambahan yang unik. Pemberian fitur unik ini dijelaskan sebagai berikut. Galih, Galuh, dan Gilang memilih tiga bilangan berbeda, sebutlah 𝐴, 𝐵, dan 𝐶 dengan sifat 2 ≤ 𝐴, 𝐵, 𝐶 ≤ 1019 −
+
+input
+1 20
+9 4 6
+Output
+6
+
+    Galih memberikan fitur tambahan unik pada produk yang nomor serinya habis dibagi 𝐴 saja (namun tidak habis dibagi oleh 𝐵 maupun 𝐶), Galuh memberikan fitur tambahan unik pada produk yang nomor serinya habis dibagi 𝐵 saja (namun tidak habis dibagi oleh 𝐴 maupun 𝐶), dan Gilang memberikan fitur tambahan unik pada produk yang nomor serinya habis dibagi oleh 𝐶 saja (namun tidak habis dibagi oleh 𝐴 maupun 𝐵).
+
+Divisi I Pemrograman – Babak Pemanasan Suatu ketika, seekor harimau bernama Galang yang tinggal di kerajaan tetangga ingin mengetahui ada berapa banyak maksimal produk dengan fitur tambahan unik untuk sekumpulan perangkat lunak yang nomor serinya di antara 𝑀𝑖𝑛 dan 𝑀𝑎𝑥 (inklusif, termasuk 𝑀𝑖𝑛 dan 𝑀𝑎𝑥 itu sendiri, dengan 𝑀𝑖𝑛 ≤ 𝑀𝑎𝑥) apabila dia juga mengetahui bilangan berbeda 𝐴, 𝐵, dan 𝐶 yang dipilih oleh Galih, Galuh, dan Gilang. Tugas Anda adalah membantu Galang untuk menyelesaikan masalah ini.
+
+Format Masukan dan Keluaran Masukan terdiri dua baris, baris pertama adalah dua bilangan 𝑀𝑖𝑛 dan 𝑀𝑎𝑥 dengan 0 ≤ 𝑀𝑖𝑛 ≤ 𝑀𝑎𝑥 ≤ 1019 − 1 yang dipisahkan dengan spasi. Baris kedua adalah tiga bilangan berbeda 𝐴, 𝐵, dan 𝐶 dengan 2 ≤ 𝐴, 𝐵, 𝐶 ≤ 1019 − 1 dengan 𝐴 ≠ 𝐵 ≠ 𝐶 yang dipisahkan dengan spasi. Keluaran adalah banyaknya produk dengan fitur tambahan unik berdasarkan nomor serinya yang berada di antara 𝑀𝑖𝑛 dan 𝑀𝑎𝑥 (inklusif, termasuk 𝑀𝑖𝑛 dan 𝑀𝑎𝑥), sebagaimana dijelaskan pada deskripsi soal.
+
+Penjelasan Masukan/Keluaran : Pada contoh masukan dan keluaran pertama, kita memiliki nilai 𝑀𝑖𝑛 = 1 dan 𝑀𝑎𝑥 = 20. Di antara dua bilangan ini, ada 6 bilangan yang merepresentasikan nomor seri produk dengan fitur tambahan unik sesuai dengan nilai 𝐴 = 9, 𝐵 = 4, dan 𝐶 = 6 sebagaimana kriteria pada soal, yaitu: 4, 6, 8, 9, 16, dan 20. Pada contoh masukan dan keluaran kedua, kita memiliki nilai 𝑀𝑖𝑛 =20 dan 𝑀𝑎𝑥 = 40. Di antara dua bilangan ini, ada 4 bilangan yang merepresentasikan nomor seri produk dengan fitur tambahan unik sesuai dengan nilai 𝐴 = 8, 𝐵 = 9, dan 𝐶 = 6 sebagaimana kriteria pada soal, yaitu: 27, 30, 32, dan 40
